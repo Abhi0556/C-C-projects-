@@ -11,6 +11,7 @@ int Movies();
 int Music();
 int Sports();
 int Geography();
+int Language();
 
 int main()
 {
@@ -2544,3 +2545,636 @@ int Geography(){
 
 }
 
+int Technology(){
+
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Sports--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+
+    
+    printf("\n   1)  What is the primary function of a CPU?");
+    printf("\n       1) Store data    2) Process data");
+    printf("\n       3) Display data  4) Print data");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   2)  Which device is used to connect multiple computers together within a local area?");
+    printf("\n       1) Modem    2) Router");
+    printf("\n       3) Switch   4) Firewall");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   3)  What does 'HTML' stand for?");
+    printf("\n       1) Hyper Transfer Markup Language");
+    printf("\n       2) Hyper Text Modeling Language");
+    printf("\n  3) Hyper Text Markup Language");
+    printf("\n4) High Tech Machine Learning");
+    printf("\nAnswer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   4)  Which programming language is used for building Android apps?");
+    printf("\n       1) Java    2) C++");
+    printf("\n       3) Python  4) Swift");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   5)  What does 'LAN' stand for?");
+    printf("\n       1) Large Area Network    2) Local Area Network");
+    printf("\n       3) Limited Access Network  4) Long Access Node");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   6)  Which of these is not a type of computer memory?");
+    printf("\n       1) RAM    2) ROM");
+    printf("\n       3) CPU    4) Cache");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   7)  What is the purpose of an operating system?");
+    printf("\n       1) Manage hardware resources");
+    printf("\n       2) Run software applications");
+    printf("\n  3) Provide user interface");
+    printf("\n4) All of the above");
+    printf("\nAnswer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n   8)  Which of the following is a cloud computing service?");
+    printf("\n       1) Microsoft Word    2) Google Drive");
+    printf("\n       3) Adobe Photoshop   4) VLC Media Player");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   9)  What is the basic unit of digital information?");
+    printf("\n       1) Bit    2) Byte");
+    printf("\n       3) Pixel  4) Megabyte");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   10) Which company developed the Windows operating system?");
+    printf("\n       1) Apple    2) Microsoft");
+    printf("\n       3) Google   4) IBM");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+    
+    
+    printf("\n    11) What does CPU stand for?");
+    printf("\n         1) Central Processing Unit     2) Computer Processing Unit");
+    printf("\n         3) Core Processing Unit         4) Central Program Utility");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    12) Which programming language is commonly used for developing Android apps?");
+    printf("\n         1) Swift                       2) Java");
+    printf("\n         3) C++                         4) Python");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    13) What does HTML stand for?");
+    printf("\n         1) Hyperlink Text Markup Language     2) Hypertext Markup Language");
+    printf("\n         3) Hyper Tool Markup Language         4) Home Tool Markup Language");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    14) Which company developed the Python programming language?");
+    printf("\n         1) Google                      2) Apple");
+    printf("\n         3) Microsoft                   4) Dropbox");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    15) What does GPU stand for?");
+    printf("\n         1) Graphics Processing Unit    2) Graphical Performance Utility");
+    printf("\n         3) General Processing Unit     4) Generalized Performance Unit");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    16) What is the full form of RAM?");
+    printf("\n         1) Read Access Memory          2) Random Access Memory");
+    printf("\n         3) Rapid Access Memory         4) Remote Access Memory");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    17) Which protocol is used for secure communication over the Internet?");
+    printf("\n         1) HTTP                        2) SMTP");
+    printf("\n         3) FTP                         4) HTTPS");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    18) Which of the following is NOT a web browser?");
+    printf("\n         1) Chrome                      2) Firefox");
+    printf("\n         3) Java                        4) Safari");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    19) What technology is used to connect wireless devices such as headphones to smartphones?");
+    printf("\n         1) NFC                         2) Bluetooth");
+    printf("\n         3) Infrared                    4) Wi-Fi");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    20) Which programming language is known for its use in data analysis and scientific computing?");
+    printf("\n         1) JavaScript                  2) Ruby");
+    printf("\n         3) MATLAB                      4) PHP");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+
+    
+    printf("\n   21) Which encryption algorithm is considered the most secure?");
+    printf("\n      1) AES (Advanced Encryption Standard)      2) DES (Data Encryption Standard)");  
+    printf("\n      3) RSA (Rivest-Shamir-Adleman)             4) Blowfish");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   22) What does the acronym 'IoT' stand for?");
+    printf("\n      1) Internet of Things                    2) Input/Output Technology");  
+    printf("\n      3) Integrated Operational Technology     4) Intelligent Object Tracking");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   23) Which programming language is often used for artificial intelligence applications?");
+    printf("\n      1) Java      2) Python");  
+    printf("\n      3) C++       4) Ruby");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   24) What is the maximum data transfer rate of USB 3.0?");
+    printf("\n      1) 480 Mbps      2) 5 Gbps");  
+    printf("\n      3) 10 Gbps       4) 1 Gbps");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   25) Which of the following is NOT a cloud computing deployment model?");
+    printf("\n      1) Public Cloud      2) Private Cloud");  
+    printf("\n      3) Hybrid Cloud      4) Encrypted Cloud");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n   26) What is the smallest unit of data in a quantum computer?");
+    printf("\n      1) Qubit      2) Bit");  
+    printf("\n      3) Byte       4) Quantum Byte");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   27) Which company developed the first commercially available smartphone?");
+    printf("\n      1) Apple        2) IBM");  
+    printf("\n      3) Motorola     4) Nokia");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   28) What is the main purpose of a VPN (Virtual Private Network)?");
+    printf("\n      1) Securely encrypt emails              2) Bypass internet censorship");  
+    printf("\n      3) Connect remote networks securely     4) Speed up internet connection");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   29) Which protocol is commonly used for secure communication over the internet?");
+    printf("\n      1) HTTP       2) FTP");  
+    printf("\n      3) TCP/IP     4) HTTPS");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 4) {
+        count++;
+    }
+
+    0
+    printf("\n    30) What does RAID stand for in data storage?");
+    printf("\n      1) Redundant Array of Independent Disks         2) Rapid Access of Important Data");  
+    printf("\n      3) Randomized Allocation of Integrated Data     4) Real-time Asset and Information Database");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+
+}
+
+int Language(){
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Sports--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+
+
+printf("\n      1) What is the term for a word that sounds like the noise it represents?");
+printf("\n         1) Onomatopoeia     2) Oxymoron");  
+printf("\n         3) Hyperbole         4) Metaphor");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==1){
+    count++;
+}
+
+
+printf("\n      2) Which of these is a synonym for 'happy'?");
+printf("\n         1) Gloomy           2) Ecstatic");  
+printf("\n         3) Grumpy           4) Sad");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==2){
+    count++;
+}
+
+
+printf("\n      3) What do we call words that are spelled the same but have different meanings?");
+printf("\n         1) Synonyms         2) Homonyms");  
+printf("\n         3) Antonyms         4) Anagrams");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==2){
+    count++;
+}
+
+
+printf("\n      4) Which of these is NOT a vowel?");
+printf("\n         1) A                2) E");  
+printf("\n         3) D                4) I");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==3){
+    count++;
+}
+
+
+printf("\n      5) What is the plural form of 'child'?");
+printf("\n         1) Childs           2) Childes");  
+printf("\n         3) Children         4) Childs'");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==3){
+    count++;
+}
+
+
+printf("\n      6) Which word means the opposite of 'begin'?");
+printf("\n         1) Start            2) Initiate");  
+printf("\n         3) Conclude         4) Commence");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==3){
+    count++;
+}
+
+
+printf("\n      7) What is the term for a group of wolves?");
+printf("\n         1) Herd             2) Pack");  
+printf("\n         3) Flock            4) Pod");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==2){
+    count++;
+}
+
+
+printf("\n      8) Which word is a synonym for 'angry'?");
+printf("\n         1) Joyful           2) Content");  
+printf("\n         3) Furious          4) Peaceful");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==3){
+    count++;
+}
+
+
+printf("\n      9) What is a word that means 'the study of insects'?");
+printf("\n         1) Biology          2) Botany");  
+printf("\n         3) Zoology          4) Entomology");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==4){
+    count++;
+}
+
+
+printf("\n      10) Which of these words is a conjunction?");
+printf("\n         1) Car              2) And");  
+printf("\n         3) Fast             4) Green");
+printf("\n  Answer=");
+scanf("%d",&answer); 
+if(answer==2){
+    count++;
+}
+
+    printf("\n           ----------Second Level---------");
+    
+    printf("\n   11) Which term refers to a word or phrase that reads the same backward as forward?");
+    printf("\n      1) Palindrome     2) Oxymoron");  
+    printf("\n      3) Anagram        4) Onomatopoeia");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n  12) What is the study of the origin and history of words?");
+    printf("\n      1) Etymology      2) Syntax");  
+    printf("\n      3) Phonetics      4) Morphology");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   13) Which figure of speech involves the use of exaggeration for emphasis?");
+    printf("\n      1) Irony          2) Metaphor");  
+    printf("\n      3) Hyperbole      4) Simile");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   14) What is the term for a word that is spelled similarly to another but differs in meaning?");
+    printf("\n      1) Homonym        2) Synonym");  
+    printf("\n      3) Antonym        4) Homophone");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n   15) Which word means the use of several conjunctions in close succession?");
+    printf("\n      1) Polysyndeton   2) Asyndeton");  
+    printf("\n      3) Anaphora       4) Epistrophe");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   16) What is the term for a word that sounds like the noise it represents?");
+    printf("\n      1) Metaphor       2) Simile");  
+    printf("\n      3) Onomatopoeia   4) Oxymoron");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   17) Which literary device involves a part representing the whole or vice versa?");
+    printf("\n      1) Irony          2) Synecdoche");  
+    printf("\n      3) Alliteration   4) Euphemism");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   18) What does the term 'vernacular' refer to?");
+    printf("\n      1) Slang          2) Standard language");  
+    printf("\n      3) Dialect        4) Jargon");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   19) Which term describes the substitution of a mild or less negative word or phrase for a harsh or blunt one?");
+    printf("\n      1) Metaphor       2) Personification");  
+    printf("\n      3) Euphemism      4) Idiom");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    0
+    printf("\n   20) What is the term for a word or phrase that contradicts itself?");
+    printf("\n      1) Oxymoron       2) Paradox");  
+    printf("\n      3) Hyperbole      4) Irony");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+
+    
+    printf("\n      21) What is the term for a word or phrase that reads the same forwards and backwards?");
+    printf("\n         1) Palindrome      2) Oxymoron");
+    printf("\n         3) Anagram         4) Simile");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n      22) Which of these literary devices involves the use of contradictory terms for effect?");
+    printf("\n         1) Euphemism       2) Irony");
+    printf("\n         3) Metaphor        4) Paradox");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n      23) What is the term for a word or phrase that is substituted for another to avoid being too direct or offensive?");
+    printf("\n         1) Homonym         2) Synecdoche");
+    printf("\n         3) Euphemism       4) Epiphany");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n      24) Which word refers to the excessive use of words or overly complex language?");
+    printf("\n         1) Epistolary      2) Loquacious");
+    printf("\n         3) Elocution       4) Sesquipedalian");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n      25) What is the term for a word or phrase that is formed by rearranging the letters of another word or phrase?");
+    printf("\n         1) Oxymoron        2) Palindrome");
+    printf("\n         3) Anagram         4) Allegory");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n      26) Which of these terms refers to a figure of speech where a part is used to represent the whole?");
+    printf("\n         1) Synecdoche      2) Metonymy");
+    printf("\n         3) Hyperbole       4) Paradox");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n      27) What is the term for a word that sounds like the noise or action it describes?");
+    printf("\n         1) Onomatopoeia    2) Portmanteau");
+    printf("\n         3) Soliloquy       4) Simile");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n      28) Which of these literary devices involves an exaggerated statement or claim not meant to be taken literally?");
+    printf("\n         1) Understatement   2) Hyperbole");
+    printf("\n         3) Oxymoron        4) Alliteration");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n      29) What term refers to a word or phrase that suggests more than one meaning?");
+    printf("\n         1) Homophone       2) Polysemy");
+    printf("\n         3) Parody          4) Onomatopoeia");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n      30) What term describes the study of the origin and history of words?");
+    printf("\n          1) Syntax         2) Etymology");
+    printf("\n          3) Phonetics       4) Morphology");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+
+}
