@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int rules();
 int display();
 int General();
-int rules();
 int Science();
 int History();
+int Literature();
+int Movies();
+int Music();
+int Sports();
+int Geography();
 
 int main()
 {
@@ -384,6 +389,8 @@ int General()
     {
         count++;
     }
+    printf("\nYou scored %d out of 30.\n", count);
+
 }
 
 int Science()
@@ -689,6 +696,9 @@ int Science()
     {
         count++;
     }
+ 
+  printf("\nYou scored %d out of 30.\n", count);
+
 }
 
 int History()
@@ -900,7 +910,7 @@ int History()
         count++;
     }
 
-    printf("\n           ----------Second Level---------");
+    printf("\n           ----------Third Level---------");
     printf("\n    21) Which battle marked the end of Napoleon's military career ?");
     printf("\n        1) Battle of Waterloo                 2) Battle of Austerlitz");
     printf("\n        3) Battle of Borodino     4) Battle of Trafalgar ");
@@ -1000,4 +1010,1537 @@ int History()
     {
         count++;
     }
+ printf("\nYou scored %d out of 30.\n", count);
+
 }
+
+int Literature()
+{
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Literature and Arts--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+    printf("\n    1)Which Shakespeare play is known for the phrase 'To be, or not to be' ?");
+    printf("\n       1) Hamlet               2) Macbeth");
+    printf("\n       3) Romeo and Juliet     4) Othello");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+
+    printf("\n    2) Who painted the Mona Lisa ?");
+    printf("\n      1) Vincent van Gogh     2) Leonardo da Vinci");
+    printf("\n      3) Pablo Picasso        4) Michelangelo");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+
+    printf("\n    3) Which novel by Jane Austen features the character Elizabeth Bennet ?");
+    printf("\n       1) Sense and Sensibility      2) Emma");
+    printf("\n       3) Pride and Prejudice        4) Mansfield Park");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+
+    printf("\n    4) Who wrote '1984' ?");
+    printf("\n      1) George Orwell        2) Aldous Huxley");
+    printf("\n      3) Ernest Hemingway     4) F. Scott Fitzgerald");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+
+    printf("\n    5) Which artist is famous for cutting off part of his own ear ?");
+    printf("\n       1) Claude Monet         2) Edgar Degas");
+    printf("\n       3) Vincent van Gogh     4) Pablo Picasso");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+
+    printf("\n    6) Who wrote 'Romeo and Juliet' ?");
+    printf("\n       1) William Wordsworth   2) William Shakespeare");
+    printf("\n       3) John Milton          4) Geoffrey Chaucer");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+
+    printf("\n    7) Which musical features the song 'Memory' ?");
+    printf("\n       1) Cats                       2) Les Misérables");
+    printf("\n       3) The Phantom of the Opera   4) Wicked");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+
+    printf("\n    8) Who painted 'Starry Night' ?");
+    printf("\n      1) Salvador Dalí        2) Vincent van Gogh");
+    printf("\n      3) Pablo Picasso        4) Claude Monet");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+
+    printf("\n    9) Which play by Tennessee Williams features the character Blanche DuBois ?");
+    printf("\n       1) A Streetcar Named Desire   2) The Glass Menagerie");
+    printf("\n       3) Cat on a Hot Tin Roof      4) Suddenly Last Summer");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    10) Who wrote the novel 'Moby-Dick' ?");
+    printf("\n        1) Herman Melville      2) Charles Dickens");
+    printf("\n        3) Mark Twain           4) Nathaniel Hawthorne");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+    printf("\n    11) Which Shakespearean play features the character Othello ?");
+    printf("\n        1) Macbeth          2) Hamlet");  
+    printf("\n        3) Othello          4) Romeo and Juliet");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    12) Who wrote the novel 'Pride and Prejudice' ?");
+    printf("\n        1) Jane Austen      2) Charles Dickens");  
+    printf("\n        3) Leo Tolstoy      4) Emily Brontë");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    13) Which artist painted 'Starry Night' ?");
+    printf("\n        1) Vincent van Gogh    2) Pablo Picasso");  
+    printf("\n        3) Claude Monet        4) Leonardo da Vinci");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    14) Who wrote the play 'Romeo and Juliet' ?");
+    printf("\n        1) William Shakespeare    2) Tennessee Williams");  
+    printf("\n        3) Anton Chekhov          4) Oscar Wilde");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    15) Which Impressionist artist is known for his water lilies paintings ?");
+    printf("\n        1) Edgar Degas       2) Édouard Manet");  
+    printf("\n        3) Claude Monet      4) Pierre-Auguste Renoir");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    16) In which play by Arthur Miller does the character Willy Loman appear?");
+    printf("\n        1) The Crucible       2) Death of a Salesman");  
+    printf("\n        3) A View from the Bridge      4) All My Sons");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    17) Who painted 'The Persistence of Memory'?");
+    printf("\n        1) Salvador Dalí       2) Frida Kahlo");  
+    printf("\n        3) Pablo Picasso       4) Claude Monet");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    18) Which author wrote 'To Kill a Mockingbird'?");
+    printf("\n        1) J.K. Rowling      2) Harper Lee");  
+    printf("\n        3) Ernest Hemingway  4) F. Scott Fitzgerald");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    19) Who composed 'The Four Seasons'?");
+    printf("\n        1) Ludwig van Beethoven      2) Wolfgang Amadeus Mozart");  
+    printf("\n        3) Antonio Vivaldi           4) Johann Sebastian Bach");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    20) Which playwright wrote 'The Cherry Orchard'?");
+    printf("\n        1) Samuel Beckett        2) Henrik Ibsen");  
+    printf("\n        3) Anton Chekhov         4) Eugene O'Neill");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+    printf("\n    21) Which Shakespearean play features the characters Rosencrantz and Guildenstern ?");
+    printf("\n       1) Macbeth                2) Hamlet");  
+    printf("\n       3) Othello                4) King Lear");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    22) Who wrote the novel 'One Hundred Years of Solitude'?");
+    printf("\n       1) Gabriel García Márquez     2) Julio Cortázar");  
+    printf("\n       3) Pablo Neruda               4) Jorge Luis Borges");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    23) In Vincent van Gogh's famous painting 'Starry Night', which celestial body is prominently featured?");
+    printf("\n       1) Moon                2) Jupiter");  
+    printf("\n       3) Comet               4) Venus");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    printf("\n    24) Who wrote the play 'Death of a Salesman'?");
+    printf("\n       1) Tennessee Williams        2) Eugene O'Neill");  
+    printf("\n       3) Arthur Miller              4) Samuel Beckett");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    25) What poetic form consists of 14 lines with a specific rhyme scheme, often used by Shakespeare?");
+    printf("\n       1) Limerick               2) Sonnet");  
+    printf("\n       3) Haiku                  4) Villanelle");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    26) Who painted 'The Scream', a famous expressionist artwork?");
+    printf("\n        1) Edvard Munch             2) Pablo Picasso");  
+    printf("\n        3) Salvador Dalí            4) Vincent van Gogh");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    27) Which literary work opens with the line, 'It was the best of times, it was the worst of times'?");
+    printf("\n       1) David Copperfield         2) Great Expectations");  
+    printf("\n       3) A Tale of Two Cities      4) Oliver Twist");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    28) Who composed the music for the ballet 'The Nutcracker'?");
+    printf("\n       1) Ludwig van Beethoven     2) Pyotr Ilyich Tchaikovsky");  
+    printf("\n       3) Johannes Brahms           4) Igor Stravinsky");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    29) Which Greek epic poem features the hero Odysseus's journey home after the Trojan War?");
+    printf("\n        1) The Iliad                2) The Odyssey");  
+    printf("\n        3) The Aeneid               4) The Argonautica");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    30) Who wrote the novel 'To Kill a Mockingbird'?");
+    printf("\n       1) Harper Lee               2) F. Scott Fitzgerald");  
+    printf("\n       3) John Steinbeck           4) Ernest Hemingway");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+ printf("\nYou scored %d out of 30.\n", count);
+} 
+
+int Movies(){
+
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Movies and Tv --------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+
+    printf("\n    1) Who played the role of Harry Potter in the film series ?\n");
+    printf("         1) Daniel Radcliffe     2) Rupert Grint\n");
+    printf("         3) Tom Felton           4) Emma Watson\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    2) Which TV show features a group of friends living in New York City ?\n");
+    printf("        1) Friends                2) The Big Bang Theory\n");
+    printf("        3) How I Met Your Mother  4) Breaking Bad\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    3) Who directed the movie 'Jurassic Park' ?\n");
+    printf("         1) Steven Spielberg     2) Martin Scorsese\n");
+    printf("         3) James Cameron        4) Quentin Tarantino\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n     4) Which actor portrays Iron Man in the Marvel Cinematic Universe ?\n");
+    printf("          1) Chris Evans          2) Robert Downey Jr.\n");
+    printf("          3) Chris Hemsworth      4) Mark Ruffalo\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    5) Which TV series features a chemistry teacher turned methamphetamine manufacturer ?\n");
+    printf("         1) House of Cards       2) The Walking Dead\n");
+    printf("         3) Breaking Bad         4) Dexter\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    6) Who plays the character of Jack Sparrow in the 'Pirates of the Caribbean' series ?\n");
+    printf("         1) Orlando Bloom        2) Johnny Depp\n");
+    printf("         3) Geoffrey Rush        4) Keira Knightley\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    7) What is the name of the animated film about a rat with dreams of becoming a chef ?\n");
+    printf("         1) Ratatouille          2) Finding Nemo\n");
+    printf("         3) Toy Story            4) Up\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    8) Which film features the famous line, 'I'll be back' ?\n");
+    printf("         1) Die Hard             2) Terminator 2: Judgment Day\n");
+    printf("         3) Predator             4) Total Recall\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    9) Who played the character of Lisbeth Salander in the movie 'The Girl with the Dragon Tattoo' ?\n");
+    printf("         1) Rooney Mara          2) Scarlett Johansson\n");
+    printf("         3) Jennifer Lawrence    4) Emma Stone\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    10) Which TV show is set in the fictional town of Springfield ?\n");
+    printf("          1) Family Guy          2) The Simpsons\n");
+    printf("          3) South Park          4) Bob's Burgers\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+    printf("\n    11) Which movie won the Academy Award for Best Picture in 1994 ?");
+    printf("\n        1) Forrest Gump                2) Pulp Fiction");
+    printf("\n        3) The Shawshank Redemption    4) Schindler's List");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    12) In the TV series 'Breaking Bad', what is the alias used by Walter White ?");
+    printf("\n        1) Heisenberg    2) Scarface");
+    printf("\n        3) El Chapo      4) Mr. White");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    13) Who directed the movie 'Inception' ?");
+    printf("\n       1) Christopher Nolan    2) Quentin Tarantino");
+    printf("\n       3) Martin Scorsese      4) David Fincher");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    14) Which TV show features characters named Ross, Rachel, Chandler, Monica, Joey, and Phoebe ?");
+    printf("\n        1) Friends                  2) The Office");
+    printf("\n        3) How I Met Your Mother    4) Seinfeld");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    15) Which actor played the role of Tony Stark in the Marvel Cinematic Universe ?");
+    printf("\n        1) Chris Evans    2) Robert Downey Jr.");
+    printf("\n        3) Chris Hemsworth    4) Mark Ruffalo");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    16) Who played the character of Michael Corleone in 'The Godfather' trilogy ?");
+    printf("\n        1) Robert De Niro    2) Al Pacino");
+    printf("\n        3) Marlon Brando     4) James Caan");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    17) Which animated movie features a clownfish searching for his son ?");
+    printf("\n        1) Finding Nemo    2) Toy Story");
+    printf("\n        3) Shrek           4) The Lion King");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    18) In 'Stranger Things', what is Eleven's real name ?");
+    printf("\n       1) Max     2) Nancy");
+    printf("\n       3) Jane    4) Erica");
+    printf("\nAnswer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    19) Which movie features a character named Tyler Durden, played by Brad Pitt ?");
+    printf("\n        1) Fight Club         2) The Departed");
+    printf("\n        3) American Psycho    4) The Usual Suspects");
+    printf("\nAnswer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    20) Which TV series is based on the book series 'A Song of Ice and Fire' by George R.R. Martin ?");
+    printf("\n        1) The Walking Dead    2) Westworld");
+    printf("\n        3) Game of Thrones    4) The Witcher");
+    printf("\nAnswer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+    
+    printf("\n           ----------Third Level---------");
+    printf("\n    21) Which movie did Stanley Kubrick famously say was the one film he wished he had made?\n");
+    printf("\n        1) Apocalypse Now     2) The Godfather");
+    printf("\n        3) Blade Runner       4) Schindler's List");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    22) In the TV show 'Breaking Bad', what is the chemical compound Walter White uses to produce blue meth?\n");
+    printf("\n        1) Methylamine        2) Hydrochloric Acid");
+    printf("\n        3) Phosphine          4) Pseudoephedrine");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    23) Which movie won the Academy Award for Best Picture in 1999?\n");
+    printf("\n        1) Saving Private Ryan     2) American Beauty");
+    printf("\n        3) The Green Mile           4) The Sixth Sense");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    24) In 'The Shawshank Redemption', what is the name of the poster covering the tunnel?\n");
+    printf("\n        1) Rita Hayworth       2) Marilyn Monroe");
+    printf("\n        3) Audrey Hepburn      4) Grace Kelly");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    25) Who directed the movie '2001: A Space Odyssey'?\n");
+    printf("\n        1) George Lucas        2) Steven Spielberg");
+    printf("\n        3) Stanley Kubrick     4) Ridley Scott");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    26) In the TV series 'The Sopranos', what is Tony Soprano's profession?\n");
+    printf("\n        1) Lawyer              2) Doctor");
+    printf("\n        3) Mob Boss            4) Police Officer");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    27) Which actor played the role of Mark Zuckerberg in 'The Social Network'?\n");
+    printf("\n        1) Jesse Eisenberg     2) Michael Cera");
+    printf("\n        3) Andrew Garfield      4) Jonah Hill");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    28) What is the name of the planet in 'Interstellar' where time dilation causes significant differences in aging?\n");
+    printf("\n        1) Endurance           2) Miller's Planet");
+    printf("\n        3) Mann's Planet       4) Gargantua");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    29) Which film won the first Academy Award for Best Animated Feature in 2002?\n");
+    printf("\n        1) Finding Nemo        2) Shrek");
+    printf("\n        3) Monsters, Inc.      4) Spirited Away");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    0
+    printf("\n    30) Who played the character of Lester Burnham in 'American Beauty'?\n");
+    printf("\n        1) Leonardo DiCaprio   2) Kevin Spacey");
+    printf("\n        3) Tom Hanks           4) Brad Pitt");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+}
+
+int Music()
+
+{
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Music--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+
+    
+    printf("\n    1) Which instrument is known as the 'king of instruments'?");
+    printf("\n       1) Piano        2) Violin");  
+    printf("\n       3) Guitar       4) Organ");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    2) What do the letters 'MP3' stand for in digital audio?");
+    printf("\n       1) Musical Performance 3       2) Moving Picture 3");  
+    printf("\n       3) MPEG-3                     4) Music Player 3");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    3) Which genre of music is characterized by a steady, repetitive beat?");
+    printf("\n       1) Jazz        2) Classical");  
+    printf("\n       3) Hip Hop     4) Opera");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    4) Who was known as the 'King of Pop'?");
+    printf("\n       1) Michael Jackson       2) Elvis Presley");  
+    printf("\n       3) Madonna                4) Bob Marley");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    5) What is the highest male singing voice?");
+    printf("\n       1) Alto       2) Tenor");  
+    printf("\n       3) Baritone   4) Soprano");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    6) Which Beatles album is known for its cover featuring a zebra crossing?");
+    printf("\n       1) Abbey Road        2) Sgt. Pepper's Lonely Hearts Club Band");  
+    printf("\n       3) Let It Be          4) Rubber Soul");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    7) Who was the lead guitarist of the rock band Queen?");
+    printf("\n       1) Brian May        2) Jimmy Page");  
+    printf("\n       3) Eric Clapton      4) Angus Young");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    8) Which country is famous for flamenco music?");
+    printf("\n       1) Italy         2) Spain");  
+    printf("\n       3) Brazil        4) India");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    9) What instrument did Louis Armstrong play?");
+    printf("\n       1) Trumpet         2) Saxophone");  
+    printf("\n       3) Piano            4) Trombone");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    10) Who wrote the opera 'The Marriage of Figaro'?");
+    printf("\n       1) Giuseppe Verdi         2) Wolfgang Amadeus Mozart");  
+    printf("\n       3) Richard Wagner         4) Gioachino Rossini");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if(answer == 2) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+    
+    printf("\n    11) Which classical composer is known for 'The Four Seasons'?");
+    printf("\n       1) Beethoven      2) Mozart");  
+    printf("\n       3) Bach           4) Vivaldi");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    12) What is the name of the lead singer of the band Queen?");
+    printf("\n       1) Freddie Mercury      2) John Lennon");  
+    printf("\n       3) David Bowie           4) Mick Jagger");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    13) Which instrument does Yo-Yo Ma play?");
+    printf("\n       1) Piano      2) Violin");  
+    printf("\n       3) Cello      4) Trumpet");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    14) Who wrote the musical 'Les Misérables'?");
+    printf("\n       1) Andrew Lloyd Webber      2) Stephen Sondheim");  
+    printf("\n       3) Claude-Michel Schönberg   4) Lin-Manuel Miranda");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    15) Which rock band released the album 'The Dark Side of the Moon'?");
+    printf("\n       1) The Beatles      2) Pink Floyd");  
+    printf("\n       3) Led Zeppelin      4) The Rolling Stones");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    16) Who composed the opera 'The Magic Flute'?");
+    printf("\n       1) Wagner      2) Verdi");  
+    printf("\n       3) Puccini      4) Mozart");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    17) What is the name of Beyoncé's debut solo album?");
+    printf("\n       1) Lemonade      2) Dangerously in Love");  
+    printf("\n       3) B'Day         4) Sasha Fierce");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    18) Which jazz musician was known as 'Satchmo'?");
+    printf("\n       1) Louis Armstrong      2) Miles Davis");  
+    printf("\n       3) John Coltrane         4) Duke Ellington");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    19) Who composed the ballet 'Swan Lake'?");
+    printf("\n       1) Tchaikovsky      2) Stravinsky");  
+    printf("\n       3) Chopin           4) Debussy");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    20) Which iconic musician was known for playing a 'Purple Rain' guitar?");
+    printf("\n       1) Michael Jackson      2) Prince");  
+    printf("\n       3) Jimi Hendrix          4) David Bowie");
+    printf("\nAnswer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+
+    printf("\n    21) Who composed 'The Four Seasons'?");
+    printf("\n       1) Ludwig van Beethoven      2) Johann Sebastian Bach");
+    printf("\n       3) Wolfgang Amadeus Mozart   4) Antonio Vivaldi");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    printf("\n    22) Which composer wrote 'Carmina Burana'?");
+    printf("\n        1) Maurice Ravel      2) Richard Strauss");
+    printf("\n        3) Carl Orff          4) Igor Stravinsky");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    23) Which instrument did Miles Davis play?");
+    printf("\n        1) Piano          2) Saxophone");
+    printf("\n        3) Trumpet        4) Violin");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    24) What is the term for a group of eight musicians?");
+    printf("\n        1) Octet          2) Nonet");
+    printf("\n        3) Sextet         4) Octave");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    25) Who composed 'The Rite of Spring'?");
+    printf("\n        1) Igor Stravinsky      2) Claude Debussy");
+    printf("\n        3) Sergei Prokofiev      4) Gustav Mahler");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    26) Which of these is not a woodwind instrument?");
+    printf("\n        1) Flute          2) Oboe");
+    printf("\n        3) Violin         4) Clarinet");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n     27) Who is considered the 'King of Ragtime'?");
+    printf("\n         1) Scott Joplin         2) Jelly Roll Morton");
+    printf("\n         3) Duke Ellington       4) Louis Armstrong");
+    printf("\n   Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n     28) What is the tempo marking for 'very fast'?");
+    printf("\n         1) Andante         2) Allegro");
+    printf("\n         3) Presto          4) Adagio");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    29) In which opera would you find the 'Habanera'?");
+    printf("\n        1) La Traviata         2) Carmen");
+    printf("\n        3) The Magic Flute     4) The Barber of Seville");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    30) Who wrote the famous choral work 'Messiah'?");
+    printf("\n        1) Handel           2) Bach");
+    printf("\n        3) Mozart           4) Vivaldi");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+
+}
+
+int Sports(){
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Sports--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+    
+    printf("\n   1) Which sport is played with a shuttlecock?\n");
+    printf("       1) Badminton    2) Tennis\n");
+    printf("       3) Basketball   4) Golf\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   2) Who is known as 'The King of Clay' in tennis?\n");
+    printf("       1) Roger Federer    2) Novak Djokovic\n");
+    printf("       3) Rafael Nadal     4) Serena Williams\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   3) How many players are there in a baseball team?\n");
+    printf("       1) 9    2) 11\n");
+    printf("       3) 7    4) 6\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   4) Which country won the FIFA World Cup 2018?\n");
+    printf("       1) Brazil    2) Germany\n");
+    printf("       3) France    4) Argentina\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   5) How many points is a touchdown worth in American football?\n");
+    printf("       1) 1    2) 3\n");
+    printf("       3) 6    4) 7\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n   6) Who is the all-time leading scorer in NBA history?\n");
+    printf("       1) Kobe Bryant    2) LeBron James\n");
+    printf("       3) Kareem Abdul-Jabbar    4) Michael Jordan\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n   7) In which sport would you perform a slam dunk?\n");
+    printf("       1) Basketball    2) Volleyball\n");
+    printf("       3) Soccer         4) Tennis\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   8) Which city hosted the 2016 Summer Olympics?\n");
+    printf("       1) Rio de Janeiro    2) London\n");
+    printf("       3) Beijing            4) Sydney\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   9) What is the diameter of a standard basketball hoop in inches?\n");
+    printf("       1) 15    2) 16\n");
+    printf("       3) 17    4) 18\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   10). Which country won the ICC Cricket World Cup 2019?\n");
+    printf("        1) Australia    2) England\n");
+    printf("        3) India        4) South Africa\n");
+    printf("  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+
+    printf("\n   11)Which country won the FIFA World Cup in 2014?");
+    printf("\n     1) Brazil       2) Argentina");
+    printf("\n     3) Germany      4) Spain");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+
+    printf("\n   12)Which athlete has won the most Olympic gold medals?");
+    printf("\n     1) Michael Phelps       2) Usain Bolt");
+    printf("\n     3) Serena Williams      4) Simone Biles");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+
+    printf("\n   13)Which tennis player has won the most Grand Slam titles?");
+    printf("\n     1) Roger Federer        2) Rafael Nadal");
+    printf("\n     3) Novak Djokovic       4) Pete Sampras");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+
+    printf("\n   14)In which city were the 2016 Summer Olympics held?");
+    printf("\n     1) London       2) Rio de Janeiro");
+    printf("\n     3) Tokyo        4) Beijing");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+
+    printf("\n   15)Which NBA player holds the record for the most points scored in a single game?");
+    printf("\n     1) Michael Jordan       2) Wilt Chamberlain");
+    printf("\n     3) Kobe Bryant           4) LeBron James");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+
+    printf("\n   16)Who is the all-time leading goal scorer in men's international soccer?");
+    printf("\n     1) Lionel Messi         2) Cristiano Ronaldo");
+    printf("\n     3) Pele                  4) Ali Daei");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+
+    printf("\n   17)Which golfer has won the most Masters Tournaments?");
+    printf("\n     1) Jack Nicklaus        2) Tiger Woods");
+    printf("\n     3) Arnold Palmer        4) Phil Mickelson");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+
+    printf("\n   18)Which team has won the most Super Bowl titles?");
+    printf("\n     1) New England Patriots     2) Dallas Cowboys");
+    printf("\n     3) San Francisco 49ers       4) Pittsburgh Steelers");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+
+    printf("\n   19)Who was the first African-American to play in Major League Baseball?");
+    printf("\n     1) Satchel Paige         2) Jackie Robinson");
+    printf("\n     3) Willie Mays           4) Hank Aaron");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   20)Which country has won the most medals in the history of the Summer Olympics?");
+    printf("\n     1) United States        2) Soviet Union");
+    printf("\n     3) China                4) Great Britain");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+    printf("\n    21) Who was the first tennis player to achieve a Career Grand Slam in the Open Era?");
+    printf("\n      1) Rafael Nadal     2) Roger Federer");  
+    printf("\n      3) Novak Djokovic   4) Rod Laver");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    22) In which year did the 'Miracle on Ice' occur?");
+    printf("\n      1) 1976     2) 1980");  
+    printf("\n      3) 1984     4) 1992");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    23) Who was the first athlete to run the mile under four minutes?");
+    printf("\n      1) Sebastian Coe     2) Steve Cram");  
+    printf("\n      3) Roger Bannister    4) Jim Ryun");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    24) Which country has won the most FIFA World Cup titles?");
+    printf("\n      1) Brazil     2) Germany");  
+    printf("\n      3) Argentina   4) Italy");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    25) Who holds the record for the most Olympic gold medals in athletics?");
+    printf("\n      1) Usain Bolt     2) Michael Johnson");  
+    printf("\n      3) Carl Lewis   4) Jesse Owens");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    26) Which boxer was known as 'The Greatest'?");
+    printf("\n      1) Mike Tyson     2) Evander Holyfield");  
+    printf("\n      3) Muhammad Ali   4) Floyd Mayweather");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n    27) Which team won the first-ever Super Bowl?");
+    printf("\n      1) Green Bay Packers     2) Dallas Cowboys");  
+    printf("\n      3) Kansas City Chiefs   4) New York Jets");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n    28) Who was the youngest Formula One World Champion?");
+    printf("\n      1) Lewis Hamilton     2) Sebastian Vettel");  
+    printf("\n      3) Ayrton Senna   4) Michael Schumacher");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n    29) In which city were the first modern Olympic Games held in 1896?");
+    printf("\n      1) Paris     2) Rome");  
+    printf("\n      3) London   4) Athens");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    printf("\n    30) Who is the all-time leading scorer in NBA history?");
+    printf("\n      1) Kobe Bryant     2) Kareem Abdul-Jabbar");  
+    printf("\n      3) LeBron James   4) Michael Jordan");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+}
+
+int Geography(){
+    int count=0,answer;
+    printf("\n     -------Welcome to the world of Sports--------");
+    printf("\n Directly enter the option number from 1,2,3 or 4 for answers");
+
+    printf("\n           ----------First Level---------");
+
+    
+    printf("\n    1) What is the capital of France?");
+    printf("\n       1) Paris      2) Berlin");  
+    printf("\n       3) Rome       4) Madrid");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    2) Which continent is known as the 'Land Down Under'?");
+    printf("\n       1) Europe     2) Asia");  
+    printf("\n       3) Australia  4) Africa");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    3) What is the longest river in the world?");
+    printf("\n       1) Amazon     2) Nile");  
+    printf("\n       3) Mississippi 4) Yangtze");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    4) Which country is famous for the ancient pyramids?");
+    printf("\n       1) Greece     2) China");  
+    printf("\n       3) Egypt      4) India");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    5) Where is Mount Everest located?");
+    printf("\n       1) Nepal      2) India");  
+    printf("\n       3) China      4) Bhutan");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    6) Which ocean is the largest?");
+    printf("\n       1) Pacific    2) Atlantic");  
+    printf("\n       3) Indian     4) Arctic");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    7) What is the capital city of Japan?");
+    printf("\n       1) Tokyo      2) Seoul");  
+    printf("\n       3) Beijing    4) Bangkok");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    8) Which country is known as the 'Land of Kangaroos'?");
+    printf("\n       1) Brazil     2) Australia");  
+    printf("\n       3) Canada     4) South Africa");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    9) What is the largest desert in the world?");
+    printf("\n       1) Sahara     2) Gobi");  
+    printf("\n       3) Kalahari   4) Atacama");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    10) Which country is known as the 'Land of the Rising Sun'?");
+    printf("\n       1) China      2) India");  
+    printf("\n       3) Japan      4) Vietnam");
+    printf("\n  Answer=");
+    scanf("%d", &answer); 
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n           ----------Second Level---------");
+
+    
+    printf("\n    11)Which is the longest river in the world?");
+    printf("\n       1) Nile       2) Amazon");
+    printf("\n       3) Yangtze    4) Mississippi");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    12)What is the capital city of Australia?");
+    printf("\n      1) Sydney     2) Melbourne");
+    printf("\n      3) Canberra   4) Brisbane");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    13)Mount Everest is located in which mountain range?");
+    printf("\n       1) Andes      2) Himalayas");
+    printf("\n       3) Rockies    4) Alps");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n    14)Which desert is the largest in the world?");
+    printf("\n       1) Sahara     2) Gobi");
+    printf("\n       3) Arabian    4) Kalahari");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    15)What is the capital city of Japan?");
+    printf("\n       1) Kyoto      2) Osaka");
+    printf("\n       3) Tokyo      4) Hiroshima");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    
+    printf("\n    16)The Great Barrier Reef is located off the coast of which country?");
+    printf("\n       1) Australia  2) Brazil");
+    printf("\n       3) India      4) South Africa");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n    17)Which continent is the least populated?");
+    printf("\n       1) Africa     2) Asia");
+    printf("\n       3) Europe     4) Antarctica");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    18)What is the largest ocean in the world?");
+    printf("\n       1) Atlantic   2) Indian");
+    printf("\n       3) Arctic     4) Pacific");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 4) {
+        count++;
+    }
+
+    
+    printf("\n    19)Which country is known as the 'Land of the Rising Sun'?");
+    printf("\n       1) China      2) Italy");
+    printf("\n       3) Japan      4) India");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        count++;
+    }
+
+    printf("\n   20) What is the largest country by land area?");
+    printf("\n       1) Russia    2) Canada");
+    printf("\n       3) China     4) United States");
+    printf("\n  Answer=");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n           ----------Third Level---------");
+  
+    
+    printf("\n   21) Which is the world's longest river?");
+    printf("\n       1) Amazon River        2) Nile River");
+    printf("\n       3) Yangtze River       4) Mississippi River");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   22) What is the highest mountain peak in the world?");
+    printf("\n       1) Mount Everest      2) K2");
+    printf("\n       3) Kangchenjunga      4) Lhotse");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   23) Which country is the largest by land area?");
+    printf("\n       1) Russia             2) Canada");
+    printf("\n       3) China              4) United States");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   24) Which city is located at the highest elevation?");
+    printf("\n       1) La Paz             2) Lhasa");
+    printf("\n       3) Kathmandu          4) Quito");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   25) Which ocean is the largest?");
+    printf("\n       1) Pacific Ocean      2) Atlantic Ocean");
+    printf("\n       3) Indian Ocean        4) Southern Ocean");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   26) What is the capital of Australia?");
+    printf("\n       1) Sydney             2) Canberra");
+    printf("\n       3) Melbourne          4) Brisbane");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   27) Which desert is the largest hot desert in the world?");
+    printf("\n       1) Sahara Desert      2) Arabian Desert");
+    printf("\n       3) Kalahari Desert    4) Gobi Desert");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    
+    printf("\n   28) What is the capital city of Brazil?");
+    printf("\n       1) Rio de Janeiro     2) Brasília");
+    printf("\n       3) São Paulo          4) Salvador");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   29) Which country is known as the 'Land of the Rising Sun'?");
+    printf("\n       1) China              2) Japan");
+    printf("\n       3) South Korea        4) Thailand");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        count++;
+    }
+
+    
+    printf("\n   30)  Which strait separates Asia from North America?");
+    printf("\n        1) Bering Strait      2) Strait of Gibraltar");
+    printf("\n        3) Strait of Hormuz   4) Strait of Malacca");
+    printf("\n  Answer = ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        count++;
+    }
+
+    printf("\n  You scored %d out of 30.\n", count);
+
+}
+
